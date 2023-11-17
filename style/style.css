@@ -1,0 +1,78 @@
+* {
+  cursor: url('/cursor/bts_sunset_cursor.cur'), auto;
+}
+
+img {
+  height: 500px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 40px;
+  border: 4px black solid;
+  filter: opacity(30%);
+}
+
+img:hover {
+  width: 500px;
+  filter: opacity(0.8);
+  transition: 3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center
+}
+
+.bts-group,
+.rm,
+.jin,
+.suga,
+.j-hope,
+.jimin,
+.v-taehyung,
+.jungkook {
+  position: relative;
+}
+
+.caption-1,
+.caption-2, 
+.caption-3,
+.caption-4, 
+.caption-5,
+.caption-6,
+.caption-7,
+.caption-8 {
+  position: absolute;
+  width: 380px;
+  bottom: 25px;
+  left: 25px;
+  padding: 10px;
+  font-size: large;
+  border-radius: 40px;
+  color: violet;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.caption-1,
+.caption-2, 
+.caption-3,
+.caption-4, 
+.caption-5,
+.caption-6,
+.caption-7,
+.caption-8 {
+  display: none;
+  width: 0;
+}
+
+.bts-group:hover .caption-1,
+.rm:hover .caption-2, 
+.jin:hover .caption-3,
+.suga:hover .caption-4, 
+.j-hope:hover .caption-5,
+.jimin:hover .caption-6,
+.v-taehyung:hover .caption-7,
+.jungkook:hover .caption-8 {
+  display: block;
+  width: auto;
+  transition: 3s;
+}
