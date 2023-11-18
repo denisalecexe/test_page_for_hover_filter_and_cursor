@@ -2,6 +2,10 @@
   cursor: url('/cursor/bts_sunset_cursor.cur'), auto;
 }
 
+body {
+  background-color: violet;
+}
+
 img {
   height: 500px;
   width: 100px;
